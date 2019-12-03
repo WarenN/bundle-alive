@@ -27,5 +27,13 @@ You will get a `500 Internal Error` HTTP Status Code and a  `text/json` response
 
 * Place the `Alive` folder in your `Bundles/` folder  
 
+### Config.ini
+
+[alive]
+assert_bridge_status = 1
+assert_filesystem_status = 1
+assert_database_status = 1
+assert_cache_status = 1
+
 You are good to go.
 
